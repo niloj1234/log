@@ -280,7 +280,7 @@ bot.on('guildMemberUpdate', function(guild, oldMember, newMember) {
                 break;
             case Changes.username:
                 log.sendMessage('**[User Username Changed]** ' + newMember.username + ': Username changed from ' +
-                    oldMember.user.username + ' to ' + newMember.user.username ;
+                    oldMember.user.username + ' to ' + newMember.user.username);
                 break;
             case Changes.nickname:
                 log.sendMessage('**[User Nickname Changed]** ' + newMember.username + ': ' +
