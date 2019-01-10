@@ -10,7 +10,7 @@ const Discord = require('discord.js');
 
 //constants
 const VERSION = '0.1.1';
-const TOKEN = 'process.env.BOT_TOKEN';
+const TOKEN = process.env.BOT_TOKEN;
 const CHANNEL = 'log';
 
 //declarations
